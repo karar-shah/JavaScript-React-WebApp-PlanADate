@@ -11,7 +11,7 @@ export default function Login() {
             <div className="container">
                 <img className="main-logo" src={logo} alt="logo" />
                 <img className="group-logo" src={groupLogo} alt="Group" />
-                <form>
+                <form className="main-form">
                     <h1 className="form-heading">Login To Your Account</h1>
                     <h6 className="form-sub-heading">
                         Please enter your login details.
