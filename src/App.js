@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Login from "./pages/login";
+import OutlinedButton from "./components/outlinedButton";
+import ContainedButton from "./components/containedButton";
+import Input from "./components/input";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            {/* <ContainedButton />
+            <OutlinedButton />
+            <Input /> */}
+            <Login />
+        </div>
+    );
 }
 
 export default App;

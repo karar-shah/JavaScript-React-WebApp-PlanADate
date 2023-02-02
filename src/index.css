@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-family: "Lato";
+}
+
+.wrapper {
+    background: #0ac2cc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-logo {
+    margin-bottom: 10px;
+}
+
+form {
+    background: white;
+    border-radius: 24px;
+    padding: 30px;
+    padding-bottom: 60px;
+    margin-bottom: 15px;
+    margin-top: -240px;
+}
+
+.form-heading {
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 3px;
+}
+
+.form-sub-heading {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 350;
+    margin-bottom: 40px;
+}
+
+.remember-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+}
+.form-control input {
+    margin-right: 10px;
+}
+
+a {
+    color: black;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid black;
+    opacity: 50%;
+    width: 70%;
+    margin-bottom: 40px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.btn-contained {
+    background: #0ac2cc;
+    color: white;
+    padding: 12px 39%;
+    border: 0px;
+    border-radius: 20px;
+    margin: 40px 0px;
+}
+
+.btn-outlined {
+    background: white;
+    color: #0ac2cc;
+    padding: 12px 39%;
+    border: 1px solid #0ac2cc;
+    border-radius: 20px;
+    margin-top: 10px;
+    max-zoom: 100%;
+}
+
+.input {
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 90%;
 }
